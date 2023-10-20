@@ -1,2 +1,2 @@
 # Cookbook
-Open AI Recipe Reader
+Open AI Recipe Reader 
