@@ -7,6 +7,7 @@ load_dotenv(find_dotenv())
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 st.sidebar.title("_Recipe Scraper_")
+st.title("_AI Web Recipe Scraper_")
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
