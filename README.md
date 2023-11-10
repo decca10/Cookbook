@@ -1,5 +1,5 @@
 # Cookbook
-Our cutting-edge open AI Recipe Reader takes the hassle out of scouring the web for recipes. With a simple input of a URL, _Recipe Scraper_ swiftly extracts the culinary masterpiece you desire and presents it in a structured, easy-to-read format. But that's not all; we also give you the power to save your newfound culinary gems as markdown files, making them accessible at your fingertips anytime you need them.
+My cutting-edge open AI Recipe Reader takes the hassle out of scouring the web for recipes. With a simple input of a URL, _Recipe Scraper_ swiftly extracts the culinary masterpiece you desire and presents it in a structured, easy-to-read format. But that's not all; we also give you the power to save your newfound culinary gems as markdown files, making them accessible at your fingertips anytime you need them.
 
 Here's what Recipe Scraper offers you:
 
