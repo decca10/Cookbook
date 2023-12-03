@@ -54,12 +54,12 @@ try:
         file.write(response)
         st.success(f"Markdown file '{file_name}.md' has been saved.")
 
+    
+    st.download_button(
+        label="Download data as markdown",
+        data=response,
+        file_name=file_name+".md")
+
 except NameError:
     st.success("Enter URL in the left sidebar")
 
-
-st.download_button(
-    label="Download data as markdown",
-    data=response,
-    file_name=file_name+".md"
-)
