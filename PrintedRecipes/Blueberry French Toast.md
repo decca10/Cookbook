@@ -8,7 +8,8 @@ Ingredients:
 - 2 cups milk
 - 1/3 cup maple syrup
 - 1/2 teaspoon ground cinnamon
-- Maple syrup, optional
+- Maple syrup, optional   
+
 Sauce:
 - 1 cup sugar
 - 1 cup water
