@@ -56,7 +56,7 @@ try:
 
     
     st.download_button(
-        label="Download data as markdown",
+        label="Download Recipe",
         data=response,
         file_name=file_name+".md")
 
