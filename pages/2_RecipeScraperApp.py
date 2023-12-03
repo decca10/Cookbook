@@ -1,10 +1,8 @@
 import openai
 import os
 import streamlit as st
-from dotenv import load_dotenv, find_dotenv
-load_dotenv(find_dotenv())
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = 'OPENAI_API_KEY'
 
 st.sidebar.title("_Recipe Scraper_")
 st.title("_AI Web Recipe Scraper_")
