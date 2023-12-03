@@ -25,9 +25,4 @@ if selected_file:
     with open(os.path.join(markdown_dir, selected_file), "r") as file:
         markdown_content = file.read()
         st.markdown(markdown_content)
-
-st.download_button(
-    label="Download Recipe",
-    data=st.markdown(markdown_content),
-    file_name=selected_file+".md"
-)
+        st.download_button(label="Download Recipe",data=markdown_content,file_name=selected_file+".md")
