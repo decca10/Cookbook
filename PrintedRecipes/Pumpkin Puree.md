@@ -1,7 +1,7 @@
 Pumpkin Puree
 
 Ingredients:
-- 1 small pumpkin
+- 1 whole (3lb) sugar or pie pumpkin
 
 Instructions:
 1. Preheat the oven to 350°F (175°C).
