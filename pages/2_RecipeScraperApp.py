@@ -58,3 +58,8 @@ except NameError:
     st.success("Enter URL in the left sidebar")
 
 
+st.download_button(
+    label="Download data as markdown",
+    data=response,
+    file_name=file_name+".md"
+)
