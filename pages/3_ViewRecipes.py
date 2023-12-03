@@ -28,6 +28,6 @@ if selected_file:
 
 st.download_button(
     label="Download Recipe",
-    data=markdown_content,
+    data=st.markdown(markdown_content),
     file_name=selected_file+".md"
 )
