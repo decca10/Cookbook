@@ -42,13 +42,13 @@ try:
         st.write("---")
         st.write(response[response.index('\n')+1:])
 
-        with open(os.path.join("/Volumes/homes/Melissa/Drive/SynologyDrive/Work/NLP projects/Cookbook/PrintedRecipes",response.split('\n')[0]+".md"), "w") as file:
+        with open(os.path.join(os.path.dirname(__file__),"Printed Recipes",response.split('\n')[0]+".md"), "w") as file:
             file.write(response)
 
 
     # Save as a Markdown file
     file_name = response.split('\n')[0]
-    path = "/Volumes/homes/Melissa/Drive/SynologyDrive/Work/NLP projects/Cookbook/PrintedRecipes"
+    path = os.path.join(os.path.dirname(__file__), "Printed Recipes")
     with open(os.path.join(path,file_name+".md"), "w") as file:
         file.write(response)
         st.success(f"Markdown file '{file_name}.md' has been saved.")

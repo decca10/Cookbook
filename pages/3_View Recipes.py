@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 # Define the directory containing your Markdown files
-markdown_dir = "/Users/decca/Desktop/SynologyDrive/Work/NLP projects/Cookbook/PrintedRecipes"
+markdown_dir = os.path.join(os.path.dirname(__file__), "Printed Recipes")
 
 # Get a list of all Markdown files in the directory
 markdown_files = [file for file in os.listdir(markdown_dir) if file.endswith(".md")]
