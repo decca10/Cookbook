@@ -3,7 +3,7 @@ import os
 
 # Define the directory containing your Markdown files
 current_file_directory = os.path.dirname(__file__)
-markdown_dir = os.path.join(current_file_directory, "Printed_Recipes")  # Use quotes or underscore
+markdown_dir = os.path.join(current_file_directory, "PrintedRecipes")  # Use quotes or underscore
 
 # Get a list of all Markdown files in the directory
 markdown_files = [file for file in os.listdir(markdown_dir) if file.endswith(".md")]
